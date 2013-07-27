@@ -10,6 +10,7 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_codegen_SRC_FILES)
 LOCAL_MODULE:= libmcldCodeGen
+LOCAL_CFLAGS := -Wno-error=strict-aliasing
 
 LOCAL_MODULE_TAGS := optional
 
@@ -22,6 +23,8 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_codegen_SRC_FILES)
 LOCAL_MODULE:= libmcldCodeGen
+LOCAL_CFLAGS := -Wno-error=strict-aliasing
+
 
 LOCAL_MODULE_TAGS := optional
 
