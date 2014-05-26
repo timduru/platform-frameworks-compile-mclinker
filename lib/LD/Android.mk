@@ -48,7 +48,6 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_ld_SRC_FILES)
 LOCAL_MODULE:= libmcldLD
-LOCAL_CFLAGS := -Wno-error=strict-aliasing
 
 LOCAL_MODULE_TAGS := optional
 
@@ -61,7 +60,6 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_ld_SRC_FILES)
 LOCAL_MODULE:= libmcldLD
-LOCAL_CFLAGS := -Wno-error=strict-aliasing
 
 LOCAL_MODULE_TAGS := optional
 
@@ -90,8 +88,6 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_ld_variant_SRC_FILES)
 LOCAL_MODULE:= libmcldLDVariant
-LOCAL_CFLAGS := -Wno-error=strict-aliasing
-
 
 LOCAL_MODULE_TAGS := optional
 
@@ -104,8 +100,6 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_ld_variant_SRC_FILES)
 LOCAL_MODULE:= libmcldLDVariant
-LOCAL_CFLAGS := -Wno-error=strict-aliasing
-
 
 LOCAL_MODULE_TAGS := optional
 

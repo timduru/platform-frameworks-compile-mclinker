@@ -11,8 +11,6 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_object_SRC_FILES)
 LOCAL_MODULE:= libmcldObject
-LOCAL_CFLAGS := -Wno-error=strict-aliasing
-
 
 LOCAL_MODULE_TAGS := optional
 
@@ -25,8 +23,6 @@ include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := $(mcld_object_SRC_FILES)
 LOCAL_MODULE:= libmcldObject
-LOCAL_CFLAGS := -Wno-error=strict-aliasing
-
 
 LOCAL_MODULE_TAGS := optional
 
